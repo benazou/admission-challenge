@@ -1,2 +1,2 @@
 #!/bin/bash
-#add fix to exercise5-server2 here
+sudo sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
